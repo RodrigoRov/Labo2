@@ -149,6 +149,20 @@
             android:inputType="number"
             android:text="0" />
     </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/Resultado"
+            android:gravity="center">
+        </TextView>
+    </TableRow>
 
 
 
@@ -163,15 +177,30 @@
             android:layout_height="wrap_content"
             android:text="+ Jugador 1"
             android:onClick="Jugar1"
+            android:id="@+id/BotonJugador1"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+ Jugador 2"
             android:onClick="Jugar2"
+            android:id="@+id/BotonJugador2"
             />
     </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:onClick="Reset"
 
+            />
+    </TableRow>
 
 
 </TableLayout>
